@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/TxtId"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:visibility="visible" />
+    <TextView
+        android:id="@+id/TxtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Spider-Man sin retorno a clase"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/TxtClasificacion"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="35dp"
+        android:text="D15"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/TxtSinopsis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tras descubrirse la identidad secreta de Peter Parker como Spider-Man, la vida del joven se vuelve una locura. Peter decide pedirle ayuda al Doctor Extraño para recuperar su vida."
+        android:textSize="20sp"
+        android:visibility="visible" />
+    <TextView
+        android:id="@+id/TxtDuracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="120 min"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:visibility="visible" />
+    <TextView
+        android:id="@+id/TxtTipoMetraje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Largometraje"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="visible" />
+    <TextView
+        android:id="@+id/TxtNacionalidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="India"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:visibility="visible" />
+</LinearLayout>
